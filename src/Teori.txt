@@ -1,0 +1,77 @@
+1. data nilai (7, 45, 1, 255, 87, 45, 3, 9,)
+    length = 8
+    urutan saat p = 3?
+    urutan saat p = 3?
+
+    pivot = 9
+
+    #i = 0-1 = -1           j = 0
+    if(this.data[j] < pivot )
+    if(7 < 9)
+    i = -1 + 1 = 0
+    t = this.data[j]    t = 7
+    this.data[0] = this.data[0]
+    this.data[0] = t                    {7,45,1,255,87,45,3,9}
+
+    #i = 0  j = 1
+    if(this.data[j] < pivot)
+    if(45 < 9)
+    t = this.data[i+1]  t = this.data[1]
+    this.data[1] = 9
+    9 = t                           {7,9,1,255,87,45,3,9}
+
+    #p = 1
+    pivot = 7
+
+    #i = 0 - 1 = -1     j = 0
+    if(7 < 7)                      {7,9,1,255,87,45,3,9}
+    i = 0 + 1 = 1
+
+    #i = 1      j = 2
+    if(1 < 7)
+    i = 1 + 1 = 2                 {7,9,1,255,87,45,3,9}
+
+    #i = 2     j = 3
+    if(255 < 7)
+    t = this.data[i+1]      t = 255
+    this.data[3] = this.data[end]
+    this.data[end] = t               {7,9,1,255,87,45,3,9}
+
+    ##p = 3
+    pivot = 255
+
+    #i = 1      j = 0= -1     j = 0
+    if(7 < 255)
+    i = 1 + = 2                      {7,9,1,255,87,45,3,9}
+
+    #i = 2      j = 1
+    if(9 < 255)
+    i = 2 + 1 = 3
+
+    #i = 3      j = 2
+    if(1 < 255)
+    i = 3 + 1 = 4
+
+    #i = 4      j = 3
+    if(45 < 255)
+    i = 4 + 1 = 5
+
+    #i = 5      j = 4
+    if(87 < 255)
+    i = 5 + 1 = 6
+
+    #i = 6      j = 5
+    if(45 < 255)
+    i = 6 + 1 = 7
+
+    #i = 7      j = 6
+    if(45 < 255)
+    i = 7 + 1 = 8
+
+
+2.  pelanggan ={Sejahtera, Hasil bumi, Bersama, Rizki, Sarinah, Bening}
+    daerah   ={Debong, Bandung K, Randugu, Limba, Kemantren, Jatibogor}
+
+    root = Sejahtera
+    root.left = null
+    root.right = null
